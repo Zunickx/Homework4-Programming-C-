@@ -20,10 +20,12 @@ else if(numB == 1)
 else
 {
     int result = numA;
-    for(int i = 1; i < numB; i++)
-    {
-        result = result * numA;
+    void degreeThree () {
+        for(int i = 1; i < numB; i++)
+        {
+            result = result * numA;
+        }
     }
-
+    degreeThree();
     Console.WriteLine(result);
 }
